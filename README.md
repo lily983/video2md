@@ -87,7 +87,7 @@ When no chapters are available (typical for Bilibili), text is segmented to ~400
 Clone the repo, then symlink it into your Claude Code skills directory:
 
 ```bash
-git clone https://github.com/wxlchloe/video2md.git
+git clone https://github.com/lily983/video2md.git
 mkdir -p ~/.claude/skills
 ln -s "$(pwd)/video2md" ~/.claude/skills/video2md
 ```

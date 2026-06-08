@@ -45,7 +45,7 @@ description: Video2MD — 跨平台(macOS Apple Silicon / Linux)把 YouTube 或�
    ```bash
    bash scripts/video_to_md.sh "<视频链接>" [输出目录]
    ```
-   - **默认输出目录优先级**:用户当次指定 > 用户在 memory 里设的默认值 > 当前工作目录 `pwd`。**不要默认丢到 `/tmp/` 或 SKILL 目录里**。这台 Hermes 主机当前的用户默认是 `/home/xiaoli/Cybopal-wiki/_inbox/`(参见 memory)。
+   - **默认输出目录优先级**:用户当次指定 > 用户在 memory 里设的默认值 > 当前工作目录 `pwd`。**不要默认丢到 `/tmp/` 或 SKILL 目录里**。建议用户在 memory 里设一个自己的知识库 inbox 作默认输出目录,agent 跑脚本时优先用它。
    - 首次跑会按系统自动安装依赖。
 4. **stdout 只打印最终 `.md` 路径**,进度/告警走 stderr。从 stdout 拿路径。
 5. 把 `.md` 呈现给用户(present_files 之类)。

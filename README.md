@@ -1,8 +1,10 @@
 # Video2MD
 
-> Turn any YouTube or Bilibili video into a single Markdown document — subtitles if available, local Whisper transcription if not. Built as a [Claude Code](https://docs.claude.com/en/docs/claude-code/overview) skill, but the script works standalone.
+> **Save videos worth learning from — straight into your knowledge base.** Turn YouTube / Bilibili videos into Markdown notes (YAML frontmatter + chapters + clean transcript) so they compound with everything else you've collected, instead of dying in your watch history. Local Whisper transcription, GPU-accelerated on macOS Apple Silicon and NVIDIA Linux — even subtitle-less videos become searchable text, fully offline.
 >
-> 把 YouTube / B 站视频一键转成单个 Markdown 文档（YAML 元信息 + 章节 + 转录正文）：有字幕用字幕，没字幕本地 Whisper 转。作为 Claude Code skill 加载即可，命令行直接调用也行。
+> **把值得学的视频直接存进知识库** —— YouTube / B 站视频一键转成 Markdown 笔记（YAML 元信息 + 章节 + 清洗后转录），让它们和你已收藏的内容一起复利，而不是消失在观看历史里。本地 Whisper 转录（macOS Metal / Linux CUDA 加速），即使视频没字幕也能完全离线转成可搜索文本。
+>
+> Standalone shell script or [Claude Code](https://docs.claude.com/en/docs/claude-code/overview) skill — both supported. 独立脚本或 Claude Code skill 两种用法皆可。
 
 ## Features
 
